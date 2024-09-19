@@ -14,6 +14,7 @@ namespace TravelTripProject.Models.Entities
         public string Email { get; set; }
         public string FullComment { get; set; }
 
-        public Blog Blog { get; set; }
+        public int BlogID { get; set; }
+        public virtual Blog Blog { get; set; }
     }
 }
