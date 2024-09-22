@@ -132,6 +132,7 @@
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -203,6 +204,10 @@
     <Content Include="Template\blog\js\move-top.js" />
     <Content Include="Template\blog\single.html" />
     <Content Include="Template\blog\w3layouts-License.txt" />
+    <Content Include="Template\login\css\style.css" />
+    <Content Include="Template\login\images\b4.jpg" />
+    <Content Include="Template\login\index.html" />
+    <Content Include="Template\login\w3layouts-License.txt" />
     <Content Include="Template\web\about.html" />
     <Content Include="Template\web\contact.html" />
     <Content Include="Template\web\css\slider.css" />
@@ -267,6 +272,12 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\NewBlog.cshtml" />
     <Content Include="Views\Admin\GetBlog.cshtml" />
+    <Content Include="Views\Blog\MakeComment.cshtml" />
+    <Content Include="Views\Admin\CommentList.cshtml" />
+    <Content Include="Views\Admin\GetComment.cshtml" />
+    <Content Include="Template\login\fonts\Asap-Regular.ttf" />
+    <Content Include="Template\login\fonts\Audiowide-Regular.ttf" />
+    <Content Include="Views\Login\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
